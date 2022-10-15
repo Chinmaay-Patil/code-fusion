@@ -1,0 +1,13 @@
+.iphone{
+    background-image: linear-gradient(#CA38ED, #3E1149    );
+    background-color: red; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos{
+     padding-top: 5%;
+    /* background-color: #CA38ED; */
+    padding-left: 8%;
+}

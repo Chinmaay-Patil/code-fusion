@@ -1,38 +1,160 @@
 .App {
-  text-align: center;
+    display: flex;
+    
+    
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.leftpanel {
+    background-color: #000000;
+    width: 50%;
+
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logoName{
+   
+    margin: 2%;
+}
+.logoName div{
+    
+    margin: 1%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.leftpanel div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+    margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.rightPanel {
+    background-color: #3E1149;
+    width: 50%;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.name {
+    color: #fff;
+}
+
+.name span {
+    color: #CA38ED;
+}
+
+.form {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ImageAndName {
+    flex-direction: column;
+
+}
+
+.pack2818 {
+    width: 145px;
+    height: 149px;
+    /* border: 1px solid red; */
+
+}
+
+.forminput {
+    flex-direction: column;
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    color: #fff;
+    /* border: 1px solid red; */
+    /* border: 1px solid rebeccapurple; */
+    width: 60%;
+}
+
+
+.input {
+    margin: 5%;
+    width: 100%;
+}
+
+
+
+.xyz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #fff;
+
+}
+
+.xyz:before,
+.xyz:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    border: 1px solid #fff;
+    margin: 10px;
+
+
+}
+
+.socialmedia {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.logo {
+
+    width: 20%;
+    background-color: #BCB1BF;
+    height: 20%;
+    margin-left: 10%;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+
+.loginlink {
+    color: #fff;
+    margin-top: 5%;
+
+}
+
+
+
+.dot {
+    width: 450px;
+    height: 450px;
+    background-color: #E487FB;
+    /* position: relative; */
+    border-radius: 50%;
+    display: inline-block;
+    /* z-index: 0; */
+    margin: auto;
+    position: relative;
+    top: 20px;
+    left: 17%;
+    z-index: 0;
+}
+
+.warriorimg{
+    position:relative; 
+    top:-35%; 
+    left:22%; 
+    z-index:1;
+    width: 450px;
+height: 475px;
+
+}
+.textt{
+    position: relative;
+    top:-30%;
+    text-align: center;
+    width: 80%;
+    left: 15%;
+    color: #fff;
+  
+   
+    
 }
